@@ -2,50 +2,54 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
         <title>Landing Page</title>
         <meta name="description" content="frontend task 2">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="HandheldFriendly" content="true">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <header>
-            <nav>
+        <div class="container">
+            <header>
+                <nav>
+                    <div class="container">
+                        <div class="logo">
+                            <a href="https://zuri.team/"><img src="./download.png" alt="HNGi8"></a>
+                        </div>
+                        <ul class="nav-items">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="tel:+23481806332">Contact me</a></li>
+                            <li><a href="./resume.html">Resume/CV</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+    
+            <section class="identity-reveal">
+                <div class="container">
+                    <div class="face">
+                        <img src="./PHOTO_20200627_180752.jpg" alt="my-face">
+                    </div>
+                    <div class="name-reveal">
+                        <h1>My Name is <br><span>ADELEKE Awwal.</span><br>Nice to meet you!</h1>
+                        <form action="./resume.html">
+                            <input type="text" placeholder="What's your name?" id="name">
+                            <button type="submit" id="submit">Come check out my resume</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <footer>
                 <div class="container">
                     <div class="logo">
                         <a href="https://zuri.team/"><img src="./download.png" alt="HNGi8"></a>
                     </div>
-                    <ul class="nav-items">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="tel:+23481806332">Contact me</a></li>
-                        <li><a href="./resume.html">Resume/CV</a></li>
-                    </ul>
+                    <div class="rights"><p>Copyright &copy; ADELEKE Awwal O. | Graphics Designer | Front-end Developer </p></div>
                 </div>
-            </nav>
-        </header>
-
-        <section class="identity-reveal">
-            <div class="container">
-                <div class="face">
-                    <img src="./PHOTO_20200627_180752.jpg" alt="my-face">
-                </div>
-                <div class="name-reveal">
-                    <h1>My Name is <br><span>ADELEKE Awwal.</span><br>Nice to meet you!</h1>
-                    <form action="./resume.html">
-                        <input type="text" placeholder="What's your name?" id="name">
-                        <button type="submit" id="submit">Come check out my resume</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-        <footer>
-            <div class="container">
-                <div class="logo">
-                    <a href="https://zuri.team/"><img src="./download.png" alt="HNGi8"></a>
-                </div>
-                <div class="rights"><p>Copyright &copy; ADELEKE Awwal O. | Graphics Designer | Front-end Developer </p></div>
-            </div>
-            
-        </footer>
+                
+            </footer>
+        </div>
+        
     </body>
 </html>
