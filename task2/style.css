@@ -38,7 +38,7 @@ header .container{
 }
 
 
-header .container .logo img{
+header .container .logo a img{
     width: 75px;
     height: 75px;
 }
