@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans;
+    background-color: blueviolet;
+    color: white;
+}
+
+header{
+    background-color:indigo;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+}
+
+.nav-items li{
+    margin-right: 50px;
+    list-style: none;
+}
+
+.nav-items li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 17.5px;
+}
+
+
+header .container .logo img{
+    width: 75px;
+    height: 75px;
+}
+
+.rest{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.identity-reveal{
+    font-family: Helvetica;
+    font-size: large;
+
+}
+
+.identity-reveal .container{
+    position: relative;
+    top: 0px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.identity-reveal img{
+    border-radius: 50%;
+    border:white 10px solid;
+    width: 345.6px;
+    height: 460.8px; 
+}
+
+.identity-reveal .name-reveal{
+    padding: 100px 0 0 50px;
+}
+.identity-reveal h1 span{
+    color: indigo;
+    font-size: xx-large;
+}
+
+.name-reveal form #name{
+    width: 300px;
+    height: 30px;
+    border: 3px solid grey;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.name-reveal form #submit{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: indigo;
+    border: 2px solid rgb(38, 12, 56);
+    border-radius: 3px;
+}
+
+.resume{
+    font-family: Raleway, sans-serif;
+}
+.resume .container .name{
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+
+.resume .container .name h1{
+    margin: auto;
+    color: indigo;
+}
+
+
+.resume .container .name img{
+    margin: 30px 30px 0 50px; 
+    transform: scale(0.7,0.7);
+    transform-origin: top;
+    width: 273px;
+    height: 409.6px;
+}
+
+.resume .container .name img:hover{
+    transform: scale(1);
+}
+
+hr{
+    margin-top: 30px;
+    width: 100%;
+    border: 2px solid indigo;
+    background-color: indigo;
+}
+
+.rest h1{
+    color: indigo;
+}
+
+.rest .contact p{
+    margin: 5px;
+}
+
+.rest .contact p a{
+    text-decoration: none;
+    color: white;
+    text-transform: italic;
+}
+.rest .experience table{
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid indigo;
+}
+
+.rest .experience table td{
+    padding: 5px;
+    border: 1px solid indigo;
+}
+
+
+.rest .skills div{
+    padding: 5px;
+}
+
+.rest .education table{
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid indigo;
+}
+
+.rest .education table td{
+    padding: 5px;
+    border: 1px solid indigo;
+}
+
+.rest .projects li{
+    margin: 15px 0 15px 0;
+}
+
+.rest .projects li a{
+    text-decoration: none;
+    color: indigo;
+}
+
+footer{
+    background-color: indigo;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+footer .container .logo{
+    transform: scale(0.5,0.5);
+}
+
+footer .container .rights{
+    margin: auto;
+    color: blueviolet;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 900;
+}
